@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is used to easily create interactive UIs like the one found on Facebook. React JS is simply the library that makes it all possible. You can create complex UIs from isolated components with React JS. 
+
 - [ ] What does it mean to _think_ in react?
+
+I think thinking in react means piecing out different components to create a larger picture. For example, when creating a react app, several components are created and then rendered in one spot to create a larger more functional piece. 
 
 - [ ] Describe state.
 
+State is an something that determines how that specific component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive.
+
 - [ ] Describe props.
 
+•	“Props” is a special keyword in React, which stands for the properties and is  used for passing data from one component to another. 
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+"Side Effect" is not a react-specific term. It is a general concept about behaviours of functions. A function is said to have side effect if it trys to modify anything outside its body. 
 
 ## Project Set Up
 
