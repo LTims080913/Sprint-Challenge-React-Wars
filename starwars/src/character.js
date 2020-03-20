@@ -1,8 +1,14 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Info from './info'
+import Info from './info';
+import styled from "styled-components"
 
 
+const Card = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    `
 
 const CharacterCard = () => {
 
@@ -27,10 +33,10 @@ return (
     
 
 
-<div>{character.map(c => {
+<Card>{character.map(c => {
         return  <Info character={c}/>
     })}
-   </div>
+   </Card>
 
 )
 
